@@ -15,10 +15,9 @@ The repo has a converter script and an ipython notebook
 
 las_conv.py will run from the command line `ipython las_conv.py` but you will need to customise the 
 main section (at the bottom of las_conv.py to point to the folder with your las files and provide the right filenames. 
-
         
     if __name__ == "__main__":
-        data_path = 'D:\\Data\\PAYS\\project12\\Logs\\'
+        data_path = 'D:\\MyDataPath\\Logs\\'
         filenames = ['F-O1.las', 'F-O2.las', 'F-O3.las', 'F-O4.las']
         batch_convert(data_path, filenames)
 
